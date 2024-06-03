@@ -524,14 +524,13 @@ header p {
     background-position: left;
   }
 }
-footer {
+.footer {
   padding: 20px;
   background: #111;
   text-align: center;
   font-size: 20px;
   color: #0095ff;
 }
-
 .bmi {
   display: flex;
   flex-direction: column;
@@ -578,6 +577,7 @@ footer {
   font-size: 22px;
   font-weight: 500;
 }
+
 .bmi .container .wrapper form div input,
 .bmi .container .wrapper form div select {
   padding: 7px 4px;
@@ -615,4 +615,74 @@ footer {
     flex-direction: column-reverse;
     gap: 1px;
   }
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: start;
+  justify-content: space-a;
+}
+
+.footer-section .social-icons a {
+  color: hsl(0, 0%, 96%);
+  font-size: 1.5em;
+  margin-left: 48px;
+  transition: color 0.3s ;
+  gap: 1px;
+}
+
+.footer-section .social-icons a:hover {
+  color: #0095ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid honeydew;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
