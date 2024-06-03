@@ -137,6 +137,7 @@ header p {
   margin: 0 auto;
   padding: 100px 0 50px 0;
   gap: 75px;
+  margin-top: -20px;
 }
 .workout_session .wrapper {
   flex: 1;
@@ -145,31 +146,32 @@ header p {
   gap: 20px;
 }
 .workout_session .wrapper h1 {
-  font-size: 2.2rem;
-  color: #111;
+  font-size: 2.1rem;
+  color: #0095ff;
 }
 .workout_session .wrapper p {
-  font-size: 1.4rem;
-  color: gray;
+  font-size: 22px;
+  color: rgb(1, 0, 7);
 }
 .workout_session .wrapper .bootcamps {
-  font-size: 1.7rem;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 .workout_session .wrapper .bootcamps div {
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 15px 8px;
   transition: 0.3s;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 30px;
 }
 .workout_session .wrapper .bootcamps div:hover {
-  background: #111;
+  background: gray;
   transition: 0.3s;
+  box-shadow: 5px 0px 5px rgb(234, 231, 231);
 }
 .workout_session .wrapper .bootcamps div:hover h4 {
   color: #0095ff;
@@ -181,7 +183,8 @@ header p {
 }
 .WorkoutSessionImg{
    height: 500px;
-   width: 500px;
+   width: 680px;
+   margin-top: -15px;
 }
 @media (max-width: 1520px) {
   .workout_session {
