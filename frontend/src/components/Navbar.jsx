@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <header>
-      <p>GoodLife Fitness</p>
+      <p>CrossFit</p>
     </header>
   )
 }

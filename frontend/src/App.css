@@ -179,6 +179,10 @@ header p {
   color: whitesmoke;
   transition: 0.3s;
 }
+.WorkoutSessionImg{
+   height: 500px;
+   width: 500px;
+}
 @media (max-width: 1520px) {
   .workout_session {
     min-width: 100%;
