@@ -12,7 +12,7 @@ import Gallery from './components/Gallery';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import BMICalculator from './components/BMICalculator';
-import Service from "Service";
+import Service from "./components/Service";
 import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 

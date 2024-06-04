@@ -4,9 +4,9 @@ function Cards({s,title}) {
     return (
         <div>
             <div>
-                <div className="bg-light bg-gradient rounded form-control text-center" style={{ height: '500px', width: '400px', boxShadow: "0px 0px 10px rgb(180,180,180)", marginLeft: "125px" }}>
-                    <img src={s} className="img mt-3 p-5" style={{ heigth: '50px' }} alt="loading" />
-                    <h1 className="fs-2 text-body-white text-center">{title}</h1>
+                <div className="bg-light bg-gradient rounded  text-center mt-3 mx-4" style={{ height: '300px', width: '300px', boxShadow: "0px 0px 10px rgb(180,180,180)"}}>
+                    <img src={s} className="mt-0 wrapper img-fluid w-100 h-75"  alt="loading" />
+                    <h4 className=" text-body-white text-center mt-2">{title}</h4>
                 </div>
             </div>
         </div>
