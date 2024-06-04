@@ -10,6 +10,7 @@ import Gallery from './components/Gallery';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import BMICalculator from './components/BMICalculator';
+import Service from "Service";
 import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -24,6 +25,7 @@ function App() {
       <Pricing/>
       <Contact/>
       <BMICalculator/>
+      <Service/>
       <Footer/>
       <ToastContainer theme='dark' position='top-center'/>
     </Router>
