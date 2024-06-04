@@ -9,21 +9,19 @@ const CARD = [
 
     },
     {
-        s: "gym.jpg",
+        s: "gym.avif",
         title: "Modern Equipments"
     },
     {
-        s: "diet-plan.png",
+        s: "diet-plan.jpeg",
         title: "Personal Diet Plan"
     },
-];
-const CARD2 = [
     {
-        s: "workout.png",
+        s: "workout.jpg",
         title: "Seperate Female Timings",
     },
     {
-        s: "mat.png",
+        s: "mat.avif",
         title: "Clean, Comfort and Safe",
     },
     {
@@ -31,12 +29,11 @@ const CARD2 = [
         title: "Virtual Yoga Sessions",
     },
     {
-        s: "parking.png",
+        s: "parking.jpg",
         title: "Complimentary Valet Parking",
     },
 ];
 export{
     CARD,
-    CARD2
   }
  
