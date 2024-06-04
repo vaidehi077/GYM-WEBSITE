@@ -13,6 +13,7 @@ import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import BMICalculator from './components/BMICalculator';
 import Service from "./components/Service";
+import Review from "./components/Review";
 import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -28,6 +29,7 @@ function App() {
       <Contact/>
       <BMICalculator/>
       <Service/>
+      <Review/>
       <Footer/>
       <ToastContainer theme='dark' position='top-center'/>
     </Router>
