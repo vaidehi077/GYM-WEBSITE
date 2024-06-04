@@ -14,6 +14,19 @@ function Service() {
             />
           })
         }</div>
+        <div className="d-flex mt-5">
+        {
+          CARD2.map((cardObj) => {
+            const { s, title } = cardObj;
+            return <Cards s={s} title={title}
+            />
+          })
+        }
+      </div>
+      <h1 className='text-light text-center text-decoration-underline mt-5'>REVIEWS AND FEEDBACKS</h1>
+      <div className='container d-flex mt-5 bg-light'style={{height:'300px',width:'200%'}}>
+ 
+      </div>
     </div>
   )
 }
