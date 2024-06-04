@@ -137,6 +137,7 @@ header p {
   margin: 0 auto;
   padding: 100px 0 50px 0;
   gap: 75px;
+  margin-top: -20px;
 }
 .workout_session .wrapper {
   flex: 1;
@@ -145,31 +146,32 @@ header p {
   gap: 20px;
 }
 .workout_session .wrapper h1 {
-  font-size: 2.2rem;
-  color: #111;
+  font-size: 2.1rem;
+  color: #0095ff;
 }
 .workout_session .wrapper p {
-  font-size: 1.4rem;
-  color: gray;
+  font-size: 22px;
+  color: rgb(1, 0, 7);
 }
 .workout_session .wrapper .bootcamps {
-  font-size: 1.7rem;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 .workout_session .wrapper .bootcamps div {
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 15px 8px;
   transition: 0.3s;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 30px;
 }
 .workout_session .wrapper .bootcamps div:hover {
-  background: #111;
+  background: gray;
   transition: 0.3s;
+  box-shadow: 5px 0px 5px rgb(234, 231, 231);
 }
 .workout_session .wrapper .bootcamps div:hover h4 {
   color: #0095ff;
@@ -178,6 +180,11 @@ header p {
 .workout_session .wrapper .bootcamps div:hover p {
   color: whitesmoke;
   transition: 0.3s;
+}
+.WorkoutSessionImg{
+   height: 500px;
+   width: 680px;
+   margin-top: -15px;
 }
 @media (max-width: 1520px) {
   .workout_session {
@@ -210,12 +217,14 @@ header p {
   flex-direction: column;
   gap: 30px;
   padding: 100px 0 50px 0;
+  margin-top: -10px;
 }
 .gallery h1 {
   color: #0095ff;
   font-size: 2.2rem;
   margin: 0 auto;
   letter-spacing: 1px;
+  margin-top: -20px;
 }
 .gallery .images {
   display: flex;
@@ -256,6 +265,8 @@ header p {
   font-size: 2.2rem;
   margin: 0 auto;
   letter-spacing: 1px;
+  color: #0095ff;
+  margin-top: -20px;
 }
 .pricing .wrapper {
   display: flex;
@@ -272,6 +283,7 @@ header p {
   box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 3px 12px 2px rgba(0, 0, 0, 0.75);
+  margin-top: -20px;
 }
 .pricing .wrapper .card img {
   position: absolute;
@@ -289,8 +301,8 @@ header p {
   padding: 30px;
 }
 .pricing .wrapper .card .title h1 {
-  font-size: 3rem;
-  color: #0095ff;
+  font-size: 3.1rem;
+  color: #8280C9;
   position: relative;
   z-index: 5;
 }
@@ -512,14 +524,13 @@ header p {
     background-position: left;
   }
 }
-footer {
+.footer {
   padding: 20px;
   background: #111;
   text-align: center;
   font-size: 20px;
   color: #0095ff;
 }
-
 .bmi {
   display: flex;
   flex-direction: column;
@@ -566,6 +577,7 @@ footer {
   font-size: 22px;
   font-weight: 500;
 }
+
 .bmi .container .wrapper form div input,
 .bmi .container .wrapper form div select {
   padding: 7px 4px;
@@ -603,4 +615,74 @@ footer {
     flex-direction: column-reverse;
     gap: 1px;
   }
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: start;
+  justify-content: space-a;
+}
+
+.footer-section .social-icons a {
+  color: white;
+  font-size: 1.5em;
+  margin-left: 48px;
+  transition: color 0.3s ;
+  gap: 1px;
+}
+
+.footer-section .social-icons a:hover {
+  color: #0095ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid honeydew;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
