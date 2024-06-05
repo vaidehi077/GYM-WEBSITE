@@ -1,11 +1,9 @@
-import { useState } from "react";
-import { FaStar } from 'react-icons/fa';
+import React from "react";
 import { CARD } from "./config";
 import Cards from "./Cards"
 
 function Service() {
-    const[rating,setRating]=useState(null);
-    const[hover,setHover]=useState(null);
+    
     return (
         <div>
             <div className='bg-black bg-gradient'>
