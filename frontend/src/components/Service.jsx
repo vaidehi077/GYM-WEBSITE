@@ -10,7 +10,7 @@ function Service() {
         <div>
             <div className='bg-black bg-gradient'>
                 <h1 className='text-light text-center mt-5'>OUR SERVICES</h1>
-                <div className="d-flex flex-wrap ms-5">
+                <div className="d-flex flex-wrap ms-5 mb-5">
                     {
                         CARD.map((cardObj) => {
 

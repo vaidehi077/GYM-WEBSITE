@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 4000;
 
 
 const connectDB = async () => {
-    await mongoose.connect("mongodb+srv://jainaashika1510:jainaashika@icp6.r7fworh.mongodb.net/feedbacks");
+    await mongoose.connect(process.env.MONGODB_URL);
     console.log("Database connected")
 }
 connectDB();
