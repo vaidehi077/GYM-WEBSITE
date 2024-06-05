@@ -18,6 +18,8 @@ function Hero() {
           <button><Link to="/register">
 
             Start Your Journey</Link></button>
+
+            
           <button>Explore Plans</button>
         </div>
       </div>

@@ -55,6 +55,7 @@ app.listen(PORT, () => {
 });
 
 
+<<<<<<< HEAD
 
 
 app.use(cors());
@@ -109,3 +110,5 @@ app.listen(PORT,()=>{
     console.log(`Server is running on PORT ${PORT}`);
 });
 
+=======
+>>>>>>> da05de506bce93020c9a0ca2a96df19b231a6b4c
