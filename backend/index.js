@@ -20,10 +20,6 @@ const connectDB = async () => {
     console.log("Database connected")
 }
 connectDB();
-const DB = async () =>{
-    await mongoose.connect("mongodb+srv://jainaashika1510:jainaashika@icp6.r7fworh.mongodb.net/feedbacks");
-    console.log("DB CONNECTED");
-}
 
 app.post('/register', async (req, res) => {
     const { name, email, password } = req.body;
