@@ -72,35 +72,6 @@ app.post('/login', async (req, res) => {
     }
 })
 
-app.post("/feedbacks",async(req,res)=>{
-    const {name,reviews,ratings}=req.body;
-    const newReview = await Review.create({
-        "name": name,
-        "reviews": reviews,
-        "ratings": ratings
-    })
-    res.json({
-        sucess: true,
-        message: "Review Added Successfully",
-        data: newReview
-    })
-})
-const reviewSchema = new Schema({
-    name: String,
-    reviews: String,
-    ratings: String
-});
-
-const Review = model("Review", reviewSchema);
-
-app.get("/feedbacks", async(req, res) => {
-    const reviews = await reviewSchema.find();
-    res.json({
-        sucess: true,
-        message: "Notes fetched Successfully",
-        data: reviews
-    })
-})
 
 app.listen(PORT, () => {
     console.log(`server is running on port ${PORT}`)
